@@ -10,7 +10,7 @@ $(document).ready(function() {
     var inputAdj2= $("#adjective2").val();
     var inputYourName= $("#your-name").val();
 
-    $(".their-name").text(inputName);
+    $(".their-name").text(inputName.toUpperCase());
     $(".trait").text(inputTrait);
     $(".adjective1").text(inputAdj1);
     $(".physical-feature").text(inputPhysFeat);
@@ -21,6 +21,7 @@ $(document).ready(function() {
     $(".your-name").text(inputYourName);
 
     $("#letter").show();
+    $("#form-letter").hide();
     event.preventDefault();
   });
 });
