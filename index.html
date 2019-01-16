@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Love Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form-letter">
+        <p>
+          Dear
+          <span class="form-group">
+            <input placeholder="their name"id="their-name" class="form-control" type="text">,
+          </span>
+        </p>
+        <p>
+          Nothing compares to your
+          <span class="form-group">
+            <input placeholder="trait" id="trait" class="form-control" type="text">
+          </span>,
+          the
+          <span class="form-group">
+            <input placeholder="adjective" id="adjective1" class="form-control" type="text">
+          </span>
+          of your
+          <span class="form-group">
+            <input placeholder="physical feature" id="physical-feature" class="form-control" type="text">
+          </span>
+          .
+        </p>
+        <p>
+          My
+          <span class="form-group">
+            <input placeholder="a feeling" id="feeling" class="form-control" type="text">
+          </span>
+          for you is deeper than
+          <span class="form-group">
+            <input placeholder="noun" id="noun1" class="form-control" type="text">
+          </span>,
+          and wider than
+          <span class="form-group">
+            <input placeholder="noun" id="noun2" class="form-control" type="text">
+          </span>.
+        </p>
+        <p>
+          You are truly
+          <span class="form-group">
+            <input placeholder="adjective" id="adjective2" class="form-control" type="text">
+          </span>.
+        </p>
+        <p>
+          <span class="form-group">
+            <input placeholder="your name" id="your-name" class="form-control" type="text">
+        </p>
+      </span>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="letter">
+        <p>
+          Dear <em><span class="their-name"></span>,</em>
+        </p>
+        <p>
+          Nothing compares to your <span class="trait"></span>, the <span class="adjective1"></span> of your <span class="physical-feature"></span>.
+        </p>
+        <p>
+          My <span class="feeling"></span> for you is deeper than <span class="noun1"></span>, and wider than <span class="noun2"></span>.
+        </p>
+        <p>
+          You are truly <span class="adjective2"></span>.
+        </p>
+        <p>
+          <em>Sincerely, <span class="your-name"></span></em>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

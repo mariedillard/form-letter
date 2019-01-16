@@ -1,0 +1,13 @@
+.btn {
+  border: 1px solid black;
+  background-color: #EEEEEE
+}
+
+#letter{
+
+}
+
+.form-control{
+  width: 125px;
+  display: inline-block;
+}
